@@ -1,0 +1,28 @@
+header {
+    background: cyan;
+    border: black;
+}
+
+section{
+    background: yellow;
+    text-align: center;
+}
+
+section#cvContext {
+    background: #a52a2a;
+    text-align: left;
+    color: aliceblue;
+}
+
+footer {
+    background-color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+}
+
+p.paragraph {
+
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}

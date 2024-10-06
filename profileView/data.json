@@ -1,0 +1,27 @@
+{
+    "name": "Daynor Tito Condori",
+    "description": "I am a software engineering student, passionate about technology and how it can become a great help in the daily life of the human being. Always willing to learn new technological advances..",
+    "city": "La Paz - Bolivia",
+    "education": [
+        {
+            "degree": "Bachelor's Degree",
+            "institution": "UE Hernando SIles",
+            "year": "2020"
+        },
+        {
+            "degree": "Software Engineering",
+            "institution": "Jala University",
+            "year": "2023 - Currently"
+        }
+    ],
+    "skills": ["NodeJS", "Java", "C#", "C++", "PHP", "Laravel", "CodeIgnighter" ,"Kotlin", "Flutter", "HTML", "CSS", "React", "MySQL", "MongoDB"],
+    "experience": [
+        {
+            "position": "Backend Developer",
+            "company": "ABC Company",
+            "period": "2022 - Present",
+            "responsibilities": "Development of web applications."
+        }
+    ],
+    "photo": "./profile.jpg"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Phrases</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>Random Phrases</h1>
+    <div id="phrase">Click the button to get a phrase.</div>
+    <button onclick="fetchPhrase()">Get Random Phrase</button>
+
+    <div id="add-phrase-section">
+        <h2>Add a New Phrase</h2>
+        <input type="text" id="new-phrase" placeholder="Enter a new phrase">
+        <button onclick="addPhrase()">Add Phrase</button>
+    </div>
+
+    <div id="all-phrases">
+        <h2>All Phrases</h2>
+        <button onclick="fetchAllPhrases()">Load All Phrases</button>
+        <ul id="phrases-list"></ul>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
