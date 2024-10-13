@@ -1,0 +1,102 @@
+:root {
+    --navbar-bg-color: #1400FF; /* Navbar background color */
+    --navbar-text-color: white; /* Text color */
+    --logo-font-size: 1.8rem; /* Logo font size */
+    --menu-font-size: 1.1rem; /* Menu font size */
+    --button-bg-color: #12B600; /* Button background color */
+    --button-hover-color: #12b600e2; /* Mouse hover button color */
+    --icon-hover-color: #12B600; /* Color of icons on mouse hover */
+    --navbar-height: 125px; /* Navbar height */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin: 0;
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color);
+    font-size: 1.2rem;
+    height: var(--navbar-height);
+}
+
+.navbar-logo a {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    font-size: var(--logo-font-size);
+}
+
+.navbar-search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: var(--button-bg-color);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: var(--navbar-text-color);
+    font-size: 1.1rem;
+}
+
+.search-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-menu li a {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    font-size: var(--menu-font-size);
+    margin-right: 15px;
+}
+
+.navbar-menu li a:hover {
+    color: var(--icon-hover-color);
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons a {
+    color: var(--navbar-text-color);
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-cart, .navbar-user {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.navbar-icons a:hover {
+    color: var(--icon-hover-color);
+}
+
+.navbar-separator {
+    width: 1px;
+    background-color: var(--navbar-text-color);
+    height: 40px;
+    margin: 0 20px;
+}
