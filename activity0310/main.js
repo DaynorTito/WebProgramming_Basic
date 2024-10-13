@@ -1,8 +1,17 @@
-function rendera() {
-    const cvContainer = document.getElementById('cvContext');
-    if (cvContainer) {
-        cvContainer.innerText = "This is the CV content";
-    } else {
-        console.error('Element with id "cvContext" not found');
-    }
+function initApp() {
+    const cv = getCV();
+    
+    const skillsEl = renderSkills(cv.skills);
+    // console.log(skillsEl)
+    // render inside div
+
+    const skillsContainer = document.getElementById('skills');
+
+    skillsContainer.append(skillsEl);
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM successfully loaded and parsed");
+    initApp();
+} ) 
